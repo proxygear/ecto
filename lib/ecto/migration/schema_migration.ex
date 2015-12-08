@@ -11,7 +11,7 @@ defmodule Ecto.Migration.SchemaMigration do
     timestamps updated_at: false
   end
 
-  @table %Ecto.Migration.Table{name: :schema_migrations}
+  @table %Ecto.Migration.Table{name: :elixir_schema_migrations}
   @opts [timeout: :infinity, log: false]
 
   def ensure_schema_migrations_table!(repo) do
