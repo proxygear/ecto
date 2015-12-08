@@ -6,7 +6,7 @@ defmodule Ecto.Migration.SchemaMigration do
   import Ecto.Query, only: [from: 2]
 
   @primary_key false
-  schema "schema_migrations" do
+  schema "elixir_schema_migrations" do
     field :version, :integer
     timestamps updated_at: false
   end

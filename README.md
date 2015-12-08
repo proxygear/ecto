@@ -1,6 +1,6 @@
 # FORK
 
-Change schema_migrations table name to ecto_schema_migrations.
+Change schema_migrations table name to elixir_schema_migrations.
 This avoid conflict with Rails applications already using "schema_migrations".
 [Ecto Issue #566](https://github.com/elixir-lang/ecto/issues/566) is about making this table name configurable.
 
